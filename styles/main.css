@@ -18,7 +18,7 @@ html {
   font-size: 62.5%;
   font-family: 'DM Sans', sans-serif;
   color: var(--white_color);
-  background: var(--gray_color);
+  background: var(--black_color);
 }
 
 body {
@@ -59,7 +59,7 @@ header .search-container input {
   text-align: center;
   border-radius: 10px;
   border: none;
-  background-color: var(--black_color);
+  background-color: var(--gray_color);
   color: var(--white_color);
   outline: none;
   background-image: url(../../images/icons8-search.svg);
@@ -174,7 +174,7 @@ header .menu {
   height: 200px;
   margin: 0 15px;
   border-radius: 15px;
-  background: var(--black_color);
+  background: var(--gray_color);
 }
 
 .main-section .carrete-container .carrete .cards img, .main-section .carrete-container .carrete .cardsCampaign img {
@@ -230,5 +230,11 @@ header .menu {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+}
+
+.form {
+  margin-top: 10%;
+  width: 100%;
+  border: red solid 1px;
 }
 /*# sourceMappingURL=main.css.map */
