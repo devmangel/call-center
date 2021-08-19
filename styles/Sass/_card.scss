@@ -1,0 +1,42 @@
+.card{
+    display: flex;
+    width: 90%;
+    position: relative;
+    margin: 20px auto;
+    height: 150px;
+    text-align: center;
+    border-radius: 15px;
+    background: linear-gradient(to bottom left, var(--black_color) 10%, var(--primary_color) 90%, var(--primary_color));
+    overflow: hidden;
+
+    .card_tittle{
+        align-self: center;
+        font-size: 2rem;
+        text-align: start;
+        margin-left: 30px;
+        margin-right: 10px;
+        z-index: 5;
+    }
+
+    .circle_1{
+        position: absolute;
+        top: -50px;
+        left: -50px;
+        width: 100px;
+        height: 100px;
+        background: #01c708;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+    .circle_2{
+        position: absolute;
+        bottom: -50px;
+        right: -50px;
+        width: 130px;
+        height: 130px;
+        background: #01c708;
+        border-radius: 50%;
+        z-index: 1;
+    }
+}

@@ -1,0 +1,62 @@
+.main-section{
+        padding: 0 5%;
+        margin-top: 50px;
+
+    .carrete-container{
+        margin-top: 50px    ;
+            h2{
+                font-size: 2rem;
+                text-align: start;
+            }
+            .carrete{
+            display: flex;
+            margin-top: 30px;
+            overflow-x: scroll;
+
+                .cards, .cardsCampaign{
+                    position: relative;
+                    display: inline-block;
+                    width: 250px;
+                    height: 200px;
+                    margin: 0 15px;
+                    border-radius: 15px;
+                    background: var(--black_color);
+
+                    img{
+                        border-radius: 50%;
+                        margin: 20px 40px 0px;
+                    }
+
+                    .cards_subtittle{
+                        
+
+                                h4{
+                                    font-weight: 400;
+                                    font-size: 1.6rem;
+                                }
+
+                                h5{
+                                    margin-top: 10px;
+                                    font-weight: 400;
+                                    font-size: 1.2rem;
+                                }
+                        }
+                }
+                
+                .card_number{
+                    position: absolute;
+                    top: 5px;
+                    left: 10px;
+                    display: block;
+                    width: 25px;
+                    height: 25px;
+                    border-radius: 50%;
+                    border: solid white 1px;
+                    font-size: 1.6rem;
+                    text-align: center;
+                    background: var(--secundary_color);
+                }
+        }
+
+    }
+}

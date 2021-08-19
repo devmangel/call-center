@@ -1,0 +1,26 @@
+:root{
+    --primary_color: #00FF00;
+    --secundary_color: #00C753;
+    --orange_color: #FF9300;
+    --black_color: #000000;
+    --white_color: #FFFFFF;
+    --gray_color: #2E2E2E;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+    color: var(--white_color);
+    background: var(--gray_color);
+}
+body{
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+}
